@@ -1,5 +1,13 @@
 html {
   font-family: "Source sans Pro", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-image: url("assets/motherboard-wallpaper.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* utility classes */
@@ -25,6 +33,10 @@ html {
 
 .white-text {
   color: white;
+}
+
+.blue-text {
+  color: lightblue;
 }
 
 .pb-50 {
@@ -80,4 +92,8 @@ html {
 
 .project-section {
   background-color: snow;
+}
+
+.contact-section {
+  background-color: #303b43;
 }
